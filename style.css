@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Syne+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+#container {
+  max-width: 1378px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1ABC9C;
+  padding: 15px 50px;
+  position: fixed;
+  width: 100%;
+}
+header #container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header ul a {
+  font-size: 25px;
+  line-height: 30px;
+  color: #000;
+  transition: 0.3s;
+}
+header ul a:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 5px white;
+}
+header #social-links li {
+  width: 35px;
+}
+header #logo-img {
+  width: 101px;
+  height: 29px;
+}
+header .social-network-img {
+  height: 40px;
+}
+
+main {
+  padding-top: 70px;
+}
+main #about {
+  display: inline-grid;
+  grid-template-columns: 50% 50%;
+  height: 500px;
+}
+main #about__left {
+  background-image: url("https://s3-alpha-sig.figma.com/img/e1fb/e52b/7fc363fc8cefe31fcb50efaf482d7ffc?Expires=1672012800&Signature=htUziV~b-IBVos3o8TGniObt7MPEZEMEgYr3Q2zBm9x0WMiSWim83QN~5SaxSF8rnBYPaWMe9m-AE6XK6TcAk4xiUZ4CXQK5hv~h6FXUnT5f21YaD30e9eYyxol8icvXrm6V9yP2Hh8mewuzsUzYzUil6cOQ2hJL8SZ5OiTb9a-Q8LowJK2qmqsuK7Z437fS-uTpjFke4SmqZDk-jkdsucdIiE3GXlQ~EWYEMqXMLTjLJ21LOnf32SfJ7tX5e2qxk5GfAgrT516NDW7k7tv6jaEXVUPbHHGKCJ3KbW6SJzTsZWlDskgQxbobzZUMSWzbIZSpwS-4U8DGygTCtX80OQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+main #about__right {
+  padding: 170px 50px;
+}
+main #about__right h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+main #about__right p {
+  text-align: justify;
+}
+
+#projects {
+  margin-top: 30px;
+  padding: 50px 20px;
+  background-color: #DCFFEB;
+}
+#projects h3 {
+  padding-left: 30px;
+}
+#projects #projects__galery {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+#projects #projects__galery .galery-item {
+  background-image: url("https://images.adsttc.com/media/images/5d6d/afd3/284d/d1d1/4a00/0084/newsletter/FI.jpg?1567469485");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 300px;
+  margin: 30px;
+  position: relative;
+}
+#projects #projects__galery .galery-item .project-wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+#projects #projects__galery .galery-item .project-wrapper h4 {
+  font-size: 20px;
+  color: white;
+  text-shadow: 3px 5px 6px black;
+  padding-bottom: 10px;
+}
+#projects #projects__galery .galery-item .project-wrapper p {
+  font-size: 14px;
+  color: white;
+  text-shadow: 3px 5px 6px black;
+}
+
+#concacts-wrapper h4 {
+  padding: 50px;
+}
+#concacts-wrapper #contacts {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+}
+#concacts-wrapper #contacts .contact .contact__icon {
+  font-size: 30px;
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+}
+#concacts-wrapper #contacts .contact .contact__title {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #888;
+  font-family: "Oswald", sans-serif;
+}
+#concacts-wrapper #contacts .contact .contact__data {
+  margin-top: 15px;
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Oswald", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
